@@ -1,0 +1,41 @@
+{
+  "name": "yak-barcode",
+  "version": "1.0.1",
+  "files": [
+    "dist",
+    "README.MD"
+  ],
+  "main": "./dist/barcode.umd.js",
+  "module": "./dist/barcode.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/barcode.es.js",
+      "require": "./dist/barcode.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lib": "vite build -c vite.config.lib.ts",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "jsbarcode": "^3.11.5",
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4",
+    "vue-tsc": "^0.2.2"
+  },
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "GuoJiKun",
+    "email": "guojikun486546@163.com",
+    "url": "https://cnblogs.com/guojikun"
+  }
+}
