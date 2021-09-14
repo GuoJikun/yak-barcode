@@ -6,9 +6,10 @@ import path from "path";
 export default defineConfig({
   plugins: [vue()],
   build: {
+    target: "esnext",
     lib: {
       entry: path.resolve(__dirname, "src/components/barcode/index.ts"),
-      name: "MyLib",
+      name: "barcode",
       fileName: (format) => `barcode.${format}.js`,
     },
     rollupOptions: {
@@ -19,6 +20,7 @@ export default defineConfig({
         globals: {
           vue: "Vue",
         },
+        exports: "named",
       },
     },
   },
