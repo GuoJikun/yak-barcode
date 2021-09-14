@@ -32,3 +32,5 @@ createApp(App).use(Barcode).mount('#app')
 | tag     | 条形码渲染的元素 | String | canvas(svg) |
 | type    | 条形码的类型     | String | CODE128     |
 | options | 其它配置         | Object | {}          |
+
+> `type` 相当于 `options.format`，但是如果 `type` 和 `options.format` 同时存在，`type` 的值的优先级最高；[完整的配置](https://github.com/lindell/JsBarcode/wiki/Options)
