@@ -1,6 +1,6 @@
 {
   "name": "yak-barcode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "keywords": [
     "barcode",
     "vue3",
@@ -28,14 +28,11 @@
     "lib": "vite build -c vite.config.lib.ts",
     "serve": "vite preview"
   },
-  "dependencies": {
-    "jsbarcode": "^3.11.5",
-    "vue": "^3.2.6"
-  },
   "devDependencies": {
     "@types/node": "^16.9.1",
     "@vitejs/plugin-vue": "^1.6.1",
     "@vue/compiler-sfc": "^3.2.6",
+    "jsbarcode": "^3.11.5",
     "typescript": "^4.3.2",
     "vite": "^2.5.4",
     "vue-tsc": "^0.2.2"
@@ -46,5 +43,11 @@
     "name": "GuoJiKun",
     "email": "guojikun486546@163.com",
     "url": "https://cnblogs.com/guojikun"
+  },
+  "peerDependencies": {
+    "jsbarcode": "^3.11.5"
+  },
+  "dependencies": {
+    "vue": "^3.2.11"
   }
 }

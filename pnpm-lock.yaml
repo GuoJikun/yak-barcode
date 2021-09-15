@@ -7,17 +7,17 @@ specifiers:
   jsbarcode: ^3.11.5
   typescript: ^4.3.2
   vite: ^2.5.4
-  vue: ^3.2.6
+  vue: ^3.2.11
   vue-tsc: ^0.2.2
 
 dependencies:
-  jsbarcode: 3.11.5
   vue: 3.2.11
 
 devDependencies:
   '@types/node': 16.9.1
   '@vitejs/plugin-vue': 1.6.2_@vue+compiler-sfc@3.2.11
   '@vue/compiler-sfc': 3.2.11
+  jsbarcode: 3.11.5
   typescript: 4.4.3
   vite: 2.5.7
   vue-tsc: 0.2.3_typescript@4.4.3
@@ -186,7 +186,6 @@ packages:
     dependencies:
       '@vue/reactivity': 3.2.11
       '@vue/shared': 3.2.11
-    dev: false
 
   /@vue/runtime-dom/3.2.11:
     resolution: {integrity: sha512-cOK1g0INdiCbds2xrrJKrrN+pDHuLz6esUs/crdEiupDuX7IeiMbdqrAQCkYHp5P1KLWcbGlkmwfVD7HQGii0Q==}
@@ -194,7 +193,6 @@ packages:
       '@vue/runtime-core': 3.2.11
       '@vue/shared': 3.2.11
       csstype: 2.6.18
-    dev: false
 
   /@vue/shared/3.2.11:
     resolution: {integrity: sha512-ovfXAsSsCvV9JVceWjkqC/7OF5HbgLOtCWjCIosmPGG8lxbPuavhIxRH1dTx4Dg9xLgRTNLvI3pVxG4ItQZekg==}
@@ -267,7 +265,6 @@ packages:
 
   /csstype/2.6.18:
     resolution: {integrity: sha512-RSU6Hyeg14am3Ah4VZEmeX8H7kLwEEirXe6aU2IPfKNvhXwTflK5HQRDNI0ypQXoqmm+QPyG2IaPuQE5zMwSIQ==}
-    dev: false
 
   /doctypes/1.1.0:
     resolution: {integrity: sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk=}
@@ -428,7 +425,7 @@ packages:
   /jsbarcode/3.11.5:
     resolution: {integrity: sha512-zv3KsH51zD00I/LrFzFSM6dst7rDn0vIMzaiZFL7qusTjPZiPtxg3zxetp0RR7obmjTw4f6NyGgbdkBCgZUIrA==}
     hasBin: true
-    dev: false
+    dev: true
 
   /json5/1.0.1:
     resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
