@@ -1,9 +1,18 @@
 {
   "name": "yak-barcode",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "keywords": [
+    "barcode",
+    "vue3",
+    "vue",
+    "component",
+    "yak-barcode",
+    "yakBarcode"
+  ],
   "files": [
-    "dist",
-    "README.MD"
+    "dist/barcode.es.js",
+    "dist/barcode.umd.js",
+    "README.md"
   ],
   "main": "./dist/barcode.umd.js",
   "module": "./dist/barcode.es.js",
