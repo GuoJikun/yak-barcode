@@ -1,7 +1,7 @@
 import Barcode from "./barcode.vue";
 import { App } from "vue";
 
-// export { Barcode };
+export { Barcode };
 
 export default {
   install(app: App) {
