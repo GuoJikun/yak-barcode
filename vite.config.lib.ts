@@ -4,15 +4,19 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
   plugins: [vue()],
   build: {
     target: "esnext",
     lib: {
       entry: path.resolve(__dirname, "src/components/barcode/index.ts"),
       name: "barcode",
-      fileName: (format) => `barcode.${format}.js`,
+      fileName: `barcode`,
     },
-    minify: "esbuild",
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
       external: ["vue", "jsbarcode"],
