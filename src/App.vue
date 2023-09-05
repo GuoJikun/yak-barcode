@@ -4,10 +4,10 @@
 </script>
 
 <template>
-  <ivy-barcode text="CODE128" type="CODE128"></ivy-barcode>
-  <!-- <ivy-barcode text="EAN" type="EAN"></ivy-barcode> -->
-  <ivy-barcode text="CODE39" type="CODE39"></ivy-barcode>
-  <ivy-barcode text="123456" type="pharmacode"></ivy-barcode>
+  <yak-barcode text="CODE128" type="CODE128"></yak-barcode>
+  <!-- <yak-barcode text="EAN" type="EAN"></yak-barcode> -->
+  <yak-barcode text="CODE39" type="CODE39"></yak-barcode>
+  <yak-barcode text="123456" type="pharmacode"></yak-barcode>
 </template>
 
 <style>
